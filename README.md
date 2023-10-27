@@ -28,7 +28,6 @@ Your objective is to gather as many TD-ERC20-101 points as possible. Please note
 - Clone the repo on your machine
 - Install the dependencies. Deps in Foudry are git submodules, you have to run `git submodule init` and `git submodule update`.
 - Register for an infura API key
-- Register for an etherscan API key
 - Create a `.env` file that contains private key for deployment, an infura API key.
 - To deploy a contract, configure a script in the [scripts folder](script). Look at the way the TD is deployed and try to iterate
 - Test your deployment locallly with `anvil` and `forge script script/your-script.s.sol --fork-url http://localhost:8545 --broadcast -vvvv`
