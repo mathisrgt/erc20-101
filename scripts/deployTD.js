@@ -22,23 +22,23 @@ async function main() {
   );
     // Setting the teacher
     await erc20.setTeacher(evaluator.address, true)
-
-    // Setting random values
-    randomSupplies = []
-    randomTickers = []
-    for (i = 0; i < 20; i++)
-      {
-      randomSupplies.push(Math.floor(Math.random()*1000000000))
-      randomTickers.push(Str.random(5))
-      // randomTickers.push(web3.utils.utf8ToBytes(Str.random(5)))
-      // randomTickers.push(Str.random(5))
-      }
   
-    console.log(randomTickers)
-    console.log(randomSupplies)
-    // console.log(web3.utils)
-    // console.log(type(Str.random(5)0)
-    await evaluator.setRandomTickersAndSupply(randomSupplies, randomTickers);
+  // Setting random values
+  randomSupplies = []
+  randomTickers = []
+  for (i = 0; i < 20; i++)
+    {
+    randomSupplies.push(Math.floor(Math.random()*1000000000))
+    randomTickers.push(Str.random(5))
+    // randomTickers.push(web3.utils.utf8ToBytes(Str.random(5)))
+    // randomTickers.push(Str.random(5))
+    }
+
+  console.log(randomTickers)
+  console.log(randomSupplies)
+  // console.log(web3.utils)
+  // console.log(type(Str.random(5)0)
+  await evaluator.setRandomTickersAndSupply(randomSupplies, randomTickers);
 
 }
 
