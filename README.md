@@ -26,7 +26,7 @@ Your objective is to gather as many TD-ERC20-101 points as possible. Please note
 ### Getting to work
 
 - Clone the repo on your machine
-- Install the required packages `npm i`
+- Install the dependencies. Deps in Foudry are git submodules, you have to run `git submodule init` and `git submodule update`.
 - Register for an infura API key
 - Register for an etherscan API key
 - Create a `.env` file that contains private key for deployment, an infura API key.
