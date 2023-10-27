@@ -29,18 +29,17 @@ Your objective is to gather as many TD-ERC20-101 points as possible. Please note
 - Install the required packages `npm i`
 - Register for an infura API key
 - Register for an etherscan API key
-- Create a `.env` file that contains a mnemonic phrase for deployment, an infura API key and an Etherscan API key.
-- Test that you are able to connect to the Sepolia network with `npx hardhat console --network sepolia`
-- To deploy a contract, configure a script in the [scripts folder](scripts). Look at the way the TD is deployed and try to iterate
-- Test your deployment locallly with `npx hardhat run scripts/your-script.js`
-- Deploy on Sepolia `npx hardhat run scripts/your-script.js --network sepolia`
+- Create a `.env` file that contains private key for deployment, an infura API key.
+- To deploy a contract, configure a script in the [scripts folder](script). Look at the way the TD is deployed and try to iterate
+- Test your deployment locallly with `anvil` and `forge script script/your-script.s.sol --fork-url http://localhost:8545 --broadcast -vvvv`
+- Deploy on Sepolia `forge script script/deployTD.s.sol --rpc-url $sepolia_url --broadcast -vvvv `
 
 ## Points list
 
 ### Setting up
 
 - Create a git repository and share it with the teacher
-- Install Hardhat and create an empty hardhat project (2 pts). Create an infura API key to be able to deploy to the Sepolia testnet
+- Install Foundry and create an empty Foundry project (2 pts). Create an infura API key to be able to deploy to the Sepolia testnet
   These points will be attributed manually if you do not manage to have your contract interact with the evaluator, or automatically in the first question.
 
 ### ERC20 basics
@@ -84,5 +83,5 @@ Extra points if you find bugs / corrections this TD can benefit from, and submit
 
 ## TD addresses
 
-- ERC20TD [`0x114452017Cdd009005C3b7eda7F0ef68aE2012bf`](https://sepolia.etherscan.io/address/0x114452017cdd009005c3b7eda7f0ef68ae2012bf)
-- Evaluator [`0x871676618E2B0db54eeD3c1398d044304B94E168`](https://sepolia.etherscan.io/address/0x871676618e2b0db54eed3c1398d044304b94e168)
+- ERC20TD [`0x114452017Cdd009005C3b7eda7F0ef68aE2012bf`](https://sepolia.etherscan.io/address/0xa62463D928143452D23F5C92853397648380c2e5)
+- Evaluator [`0x871676618E2B0db54eeD3c1398d044304B94E168`](https://sepolia.etherscan.io/address/0x95583e7C50Fba579D2Ad18a30C31D2B881B9B3AF)
