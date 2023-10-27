@@ -83,5 +83,5 @@ Extra points if you find bugs / corrections this TD can benefit from, and submit
 
 ## TD addresses
 
-- ERC20TD [`0x114452017Cdd009005C3b7eda7F0ef68aE2012bf`](https://sepolia.etherscan.io/address/0xa62463D928143452D23F5C92853397648380c2e5)
-- Evaluator [`0x871676618E2B0db54eeD3c1398d044304B94E168`](https://sepolia.etherscan.io/address/0x95583e7C50Fba579D2Ad18a30C31D2B881B9B3AF)
+- ERC20TD [`0xa62463D928143452D23F5C92853397648380c2e5`](https://sepolia.etherscan.io/address/0xa62463D928143452D23F5C92853397648380c2e5)
+- Evaluator [`0x95583e7C50Fba579D2Ad18a30C31D2B881B9B3AF`](https://sepolia.etherscan.io/address/0x95583e7C50Fba579D2Ad18a30C31D2B881B9B3AF)
